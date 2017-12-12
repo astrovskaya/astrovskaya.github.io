@@ -17,6 +17,13 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Garamond';
+    src: url(../font/garait.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
