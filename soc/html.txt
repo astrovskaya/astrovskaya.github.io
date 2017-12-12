@@ -1,0 +1,32 @@
+<div class="socki">
+<div class="ui labeled button goodshare" data-type="fb" tabindex="0">
+  <div class="ui facebook button">
+    <i class="icon-facebook"></i> FB
+  </div>
+</div>
+<div class="ui labeled button goodshare" data-type="vk" tabindex="0">
+  <div class="ui vk button">
+    <i class="icon-vkontakte"></i> VK
+  </div>
+</div>
+<div class="ui labeled button goodshare" data-type="ok" tabindex="0">
+  <div class="ui ok button">
+    <i class="icon-odnoklassniki"></i> OK
+  </div>
+</div>
+<div class="ui labeled button goodshare" data-type="mr" tabindex="0">
+  <div class="ui mr button">
+    <i class="icon-moimir"></i> MR
+  </div>
+</div>
+<div class="ui labeled button goodshare" data-type="gp" tabindex="0">
+  <div class="ui google-plus button">
+    <i class="icon-google-plus"></i> GP
+  </div>
+</div>
+<div class="ui labeled button goodshare" data-type="tw" tabindex="0">
+  <div class="ui twitter button">
+    <i class="icon-twitter"></i> TW
+  </div>
+</div>
+</div>
