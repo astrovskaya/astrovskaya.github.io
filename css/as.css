@@ -1177,6 +1177,24 @@ footer{
     }
 }
 
+@font-face {
+    font-family: 'Garamond';
+    src: url(../font/gara.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url(../font/garabd.ttf) format("truetype");
+    font-weight: 600;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url(../font/gara.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
 
 
 
