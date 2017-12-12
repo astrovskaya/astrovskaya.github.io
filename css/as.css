@@ -954,7 +954,7 @@ main{
 }
 
 .kontakt p:nth-of-type(1)::before{
-    content: "Телефон:  ";
+    content: "Facebook: ";
     font-style: italic;
 }
 
