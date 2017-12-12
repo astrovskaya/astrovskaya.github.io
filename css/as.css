@@ -958,6 +958,12 @@ main{
     font-style: italic;
 }
 
+.kontakt a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+}
+
 .kontakt p:nth-of-type(2)::before{
     content: "e-mail:  ";
     font-style: italic;
