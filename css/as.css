@@ -31,6 +31,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     margin: 0;
     padding: 0;
     font-family: Garamond, Arial, Helvetica, sans-serif;
+/*    border: 1px solid grey;*/
 }
 
 html, body{
@@ -115,8 +116,8 @@ header{
     height: 295px;
     padding: 20px;
     background: rgba(255, 212, 147,0.7); /* #ffd493b3; */
-    margin-top: 60px;
-    display: inline-block;
+    margin: 60px auto 0;
+    display: block;
     box-shadow: 2px 2px 15px black;
 }
 
@@ -213,7 +214,51 @@ nav{
     margin-top: 8px;
 }
 #menu_b	{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 3px;
 	display:none;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.burg{
+    width: 40px;
+    height: 7px;
+    background: red;
+    border-radius: 4px;
+    margin: 0px auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.burg::before, .burg::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 7px;
+    border-radius: 4px;    
+    background: red;
+    margin-top: -14px;
+}
+
+.burg::after{
+    margin-top: 21px;
+}
+
+#menu_b ul{
+    margin: 0 -40px;
+}
+
+#menu_b ul li{
+    list-style-type: none;
 }
 
 #menu_b ul.dropmenu{
@@ -1078,11 +1123,7 @@ footer{
 
 @media only screen and (max-width:980px){
 
-/*
-    .surikov p{
-    font-size: 1.3em;
-    }
-*/
+
 }
 
 @media only screen and (max-width:800px){
@@ -1097,9 +1138,36 @@ footer{
         font-size: 2em;
     }
     
+    header {
+    height: 65px;
+    background: red;
+    }
+    
+    nav {
+    width: 0;
+    height: 49px;
+    border: 1px;
+    float: left;
+    margin: 8px;
+    }
+    
+    .italy{
+    margin-top: 60px;
+    }
+    
+    #menu_h {
+    display: none;
+}
+    
+/*
+    .tv{
+        margin: 60px auto 0;
+    }
+*/
+    
     body{
         background-image: none;
-    background:#d4ecf9;
+    background: #1C1C1C;
 }
     .wrapper{
     width: 100%;
@@ -1107,20 +1175,8 @@ footer{
 	padding-top:0;
     }
     
-    #menu_h{
-/*        display: none;*/
-    } 
-    
-    header{
-	height:100px;
-    background: red;
-    }
-    
     #menu_b{
         display: block;
-        width: 50px;
-        height: 50px;
-        background: blue;
     }
     
     .block1{
@@ -1168,8 +1224,26 @@ footer{
 
 
 @media only screen and (max-width:520px){
+    header{
+        border-top: 1px solid;
+    }
+    
     h2{
-        font-size: 1.5em;
+        font-size: 120%;
+    }
+    
+    .hi{
+        font-size: 250%; 
+        margin-top: 8px;
+    }
+    
+    .tv{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .tv img {
+    width: 100%;
     }
         
 .texter>input:checked + div + label,
@@ -1190,7 +1264,13 @@ footer{
         line-height: 1;
         white-space: normal;
         
-    }    
+    } 
+    
+    .hi{
+        margin-left: 58px;
+        font-size: 230%;
+        margin-top: 10px;
+    }
 
 } /* 400px */
     
