@@ -1187,6 +1187,16 @@ footer{
 
 @media only screen and (max-width:600px){
 
+    .tv{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .tv img {
+    width: 100%;
+    }
+    
     .surikov p{
     font-size: 100%;
     }
@@ -1210,6 +1220,10 @@ footer{
 /*        width: 100%;*/
         
     }
+    
+    .kontakt p:hover{
+    font-size: 150%;
+}
 /*
     .about2 p::before{
         display: block;
@@ -1275,6 +1289,12 @@ footer{
 } /* 400px */
     
 @media only screen and (max-width:370px){
+    
+        .hi{
+        margin-left: 50px;
+        font-size: 180%;
+        margin-top: 15px;
+    }
 
     .surikov{
         padding-bottom: 126%;
@@ -1287,6 +1307,16 @@ footer{
         white-space: normal;
         line-height: 1;
     }
+}
+    
+@media only screen and (max-width:320px){
+
+        .hi{
+        margin-left: 50px;
+        font-size: 150%;
+        margin-top: 15px;
+    }
+    
 }
 
 
