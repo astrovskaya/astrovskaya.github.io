@@ -24,6 +24,79 @@
     font-style: italic;
 }
 
+@media only screen and (min-width:800px){
+    #menu_h a:hover{
+	color:#ffc55a;
+	background:Red;
+    font-weight: bold;
+    text-shadow: 1px 1px 7px black;
+    }
+
+    
+    #menu_h a:hover::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-left: 63px solid Red;
+    border-right: 63px solid Red;
+    border-bottom: 30px solid transparent;
+    margin-top: 8px;
+    }
+
+    #menu_b ul.dropmenu a:hover{
+	color:Orange;
+	background:OrangeRed;
+    }
+
+    #menu_b li:hover ul.dropmenu{
+	display:block;
+    }
+
+    .galtu:hover{
+    filter: none;
+    }
+        
+    .about2 i:hover{
+    color: white;
+    cursor: zoom-in;
+    text-shadow: -2px -2px 5px yellow, 2px 2px 5px black;
+    font-size: 2em;
+    cursor: none;
+    }
+    
+    .aboutdop p:hover{
+    cursor: none;
+    font-size: 150%;
+}
+
+    .gal2:hover{
+    filter: none;
+    }
+    
+    
+    .gallery1 a:hover .thumb {
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    }
+
+    .gallery1 a:hover .big {
+	left: 20px;
+    }
+    
+    .kontakt p:hover{
+    font-size: 150%;
+    }
+    
+    .kontakt p:hover{
+    font-size: 150%;
+    }
+}
+
+
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
@@ -194,25 +267,10 @@ nav{
 	margin-right:0;    
 }
 
-#menu_h a:hover{
-	color:#ffc55a;
-	background:Red;
-    font-weight: bold;
-    text-shadow: 1px 1px 7px black;
-}
 
 
-#menu_h a:hover::after{
-    content: " ";
-    display: block;
-    width: 0;
-    height: 0;
-    border-top: 0;
-    border-left: 63px solid Red;
-    border-right: 63px solid Red;
-    border-bottom: 30px solid transparent;
-    margin-top: 8px;
-}
+
+
 #menu_b	{
     width: 50px;
     height: 50px;
@@ -274,20 +332,11 @@ nav{
 	background:DarkOrange;	
 }
 
-#menu_b ul.dropmenu a:hover{
-	color:Orange;
-	background:OrangeRed;
-}
 
 #menu_b ul.dropmenu a:active{
 	color:white;
 	background:Olive;
 }
-
-#menu_b li:hover ul.dropmenu{
-	display:block;
-}
-
 
 main{
 
@@ -466,9 +515,6 @@ main{
     cursor: pointer;
 }
 
-.galtu:hover{
-    filter: none;
-}
 
 /*.galtu:nth-child(18){*/
 .galtu:active{
@@ -683,10 +729,7 @@ main{
     margin: 10%;
 }
 
-.aboutdop p:hover{
-    cursor: none;
-    font-size: 150%;
-}
+
 
 .aboutdop p:active{
     font-size: 150%;
@@ -719,13 +762,7 @@ main{
 /*    font-weight: 400;*/
 }
 
-.about2 i:hover{
-    color: white;
-    cursor: zoom-in;
-    text-shadow: -2px -2px 5px yellow, 2px 2px 5px black;
-    font-size: 2em;
-    cursor: none;
-}
+
 
 .about2 i:active{
     font-size: 2em;
@@ -797,9 +834,7 @@ main{
 /*    box-shadow: 0px 0px 29px #c34f1c;*/
 }
 
-.gal2:hover{
-    filter: none;
-}
+
 
 /*.gal2:nth-child(18){*/
 .gal2:active{
@@ -951,16 +986,6 @@ main{
 	margin: 20px;
 }
 
-.gallery1 a:hover .thumb {
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-}
-
-.gallery1 a:hover .big {
-	left: 20px;
-}
-
 .featured {
 	top: 260px;
 	left: 20px;
@@ -987,10 +1012,6 @@ main{
 .kontakt p{
     font-size: 100%;
     margin: 10px auto;
-}
-
-.kontakt p:hover{
-    font-size: 150%;
 }
 
 .kontakt p::-moz-selection{
@@ -1220,10 +1241,7 @@ footer{
 /*        width: 100%;*/
         
     }
-    
-    .kontakt p:hover{
-    font-size: 150%;
-}
+
 /*
     .about2 p::before{
         display: block;
@@ -1322,11 +1340,6 @@ footer{
     }
     
 }
-
-
-
-
-
 
 
 
