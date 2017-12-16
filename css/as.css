@@ -24,7 +24,10 @@
     font-style: italic;
 }
 
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 @media only screen and (min-width:800px){
+    
     #menu_h a:hover{
 	color:#ffc55a;
 	background:Red;
@@ -995,7 +998,7 @@ main{
 
 .kontakt{
     width: 100%;
-    height: 200px;
+    height: auto;
     background: #ff4500;
     color: antiquewhite;
     overflow: hidden;
@@ -1011,7 +1014,7 @@ main{
 
 .kontakt p{
     font-size: 100%;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
 .kontakt p::-moz-selection{
@@ -1048,7 +1051,7 @@ footer{
 
 .soc{
     width: 100%;
-    height: 126px;
+/*    height: 126px;*/
     background: #000;
     overflow: hidden;
     text-align: center;
@@ -1078,7 +1081,7 @@ footer{
     width: 100%;
     height: 3px;
     background: #ff4500;
-    margin-top: 6px;
+    margin: 6px 0;
     display: block;
     bottom: -44px;
     
@@ -1329,6 +1332,10 @@ footer{
         white-space: normal;
         line-height: 1;
     }
+    .nachalo{
+        font-size: 16pt;
+        font-weight: bold;
+    }
 }
     
 @media only screen and (max-width:320px){
@@ -1338,8 +1345,19 @@ footer{
         font-size: 150%;
         margin-top: 15px;
     }
+    .nachalo{
+        font-size: 15pt;
+    }
     
 }
+    
+@media only screen and (max-width:260px){
+    
+    .nachalo{
+        font-size: 14pt;
+    }
+}
+    
 
 
 
