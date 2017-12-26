@@ -325,7 +325,7 @@ main{
     line-height: 1;
     vertical-align: middle;
     color: silver;
-    margin: 10%;
+    margin: 0 10%;
 }
 
 .texter{
@@ -680,12 +680,12 @@ label{
     overflow: hidden;
     opacity: 0.9;
     color: silver;
-    line-height: 230px;
+    line-height: 300px;
     text-align: left;
 }
 
 .aboutdop p{
-    margin: 8%;
+    margin: 0 8%;
     vertical-align: middle;
     display: inline-block;
     line-height: 1;
@@ -697,6 +697,10 @@ label{
     font-size: 15pt;
 }
 
+
+.abdop2:checked + label>div>p{
+    margin: 10%;
+}
 
 .aboutdop::after, .aboutdop::before{
     content: " ";
