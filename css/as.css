@@ -307,7 +307,7 @@ main{
 
 .block2{
     width: 100%;
-    height:300px;
+/*    height:300px;*/
     background: #1C1C1C;
     border-top: 1px solid transparent;
     overflow: hidden;
@@ -325,7 +325,7 @@ main{
     line-height: 1;
     vertical-align: middle;
     color: silver;
-    margin: 0 10%;
+    margin: 10%;
 }
 
 .texter{
@@ -468,6 +468,7 @@ main{
 
 
 /*.galtu:nth-child(18){*/
+/*
 .galtu:active{
     width: 100%;
     height: 100%;
@@ -481,6 +482,10 @@ main{
     z-index: 999;
     filter: none;
     cursor: none;
+}
+*/
+label{
+    display: block;
 }
 
 .pic001{
@@ -680,7 +685,7 @@ main{
 }
 
 .aboutdop p{
-    margin: 0 8%;
+    margin: 8%;
     vertical-align: middle;
     display: inline-block;
     line-height: 1;
@@ -688,13 +693,10 @@ main{
 }
 
 
-
-
-
-.aboutdop p:active{
-    font-size: 150%;
-    cursor: none;
+.abdop2:checked + label>div{
+    font-size: 15pt;
 }
+
 
 .aboutdop::after, .aboutdop::before{
     content: " ";
@@ -832,7 +834,7 @@ main{
     cursor: none;
     margin: 0;
 }
-.inp2, .but1{
+.inp2, .but1, .abdop2{
     display: none;
 }
 
@@ -1175,6 +1177,11 @@ footer{
     cursor: none;
     font-size: 150%;
 }
+
+    .aboutdop p:active{
+    font-size: 150%;
+    cursor: none;
+}
     
     .tex p:hover{
     cursor: none;
@@ -1384,6 +1391,10 @@ footer{
 } /* 400px */
     
 @media only screen and (max-width:370px){
+    
+    .block1{
+        margin-top: 115%;
+    }
     
         .hi{
         margin-left: 50px;
