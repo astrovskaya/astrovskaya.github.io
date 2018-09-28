@@ -1,0 +1,10 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="512" startPos="0" endPos="0" selMode="0" lang="HTML" encoding="-1" filename="C:\0\H\Html_CSS\Diplom\www\index.html" backupFilePath="" originalFileLastModifTimestamp="1492879530" />
+        </mainView>
+        <subView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="416" startPos="0" endPos="0" selMode="0" lang="CSS" encoding="-1" filename="C:\0\H\Html_CSS\Diplom\www\style.css" backupFilePath="" originalFileLastModifTimestamp="1492878931" />
+        </subView>
+    </Session>
+</NotepadPlus>

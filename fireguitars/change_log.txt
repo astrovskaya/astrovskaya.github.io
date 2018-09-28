@@ -1,0 +1,18 @@
+Change Log
+* 2.8 	Fixed bug where a slow server response would cause animations to jump.
+* 2.7 	Fixed a bug where some images would stay hidden after loading. PikaChoose now works correctly in IE6/7 under strict doc types! cleaned some code to boost performance marginally.
+* 2.6.2 	Image will now wait until they are fully loaded before fading in. This was a problem with user_thumbs, that would make images 'skip'
+* 2.6.1 	Fixed a bug where not displaying captions caused the script to fail.
+* 2.6		PikaChoose will now work properly when using jQuery.noConflict();
+* 2.5 	Added support for multiple languages. Options are now defined to change the text of Play, Stop, Previous, and Next.
+			User defined thumbs are now possible. Setting user_thumbs to true and defining a 'ref' attribute for images will now link to the main image to the ref rather than the src of the thumb.
+			Added support for HTML in comments. Comments are now stored in a span directly after the image rather than in the title of the image.
+* 2.4		Fixed a bug where SliderJS would slide photos to the right on auto play start. 
+			Corrected an error that prevented the previous button from working. Photos are now properly resized on first load of page.
+* 2.3		Added SliderJS support.
+* 2.2.1	Fixed a bug where thumbnails would not resize on initial page load and failed to resize at all in Safari. 
+* 2.2		Images now load on their own instead of waiting for the site to finish loading. This should improve performance with sites that have large pages.
+* 2.1		Images can now contain links. The link url should be put in an attribute title ref
+* 2.0.1	Fixed a bug where Safari would not resize the thumbnails. Improved the smoothness of loading images.
+* 2.0		Re-hauled PikaChoose to be easier to implement.
+* 1.0.1	Fixed bug that was preventing the auto play feature from working
